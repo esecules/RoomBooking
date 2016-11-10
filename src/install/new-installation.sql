@@ -234,7 +234,7 @@ INSERT INTO `settings` VALUES ('showlocationfilter', '1', 'Whether to show the L
 INSERT INTO `settings` VALUES ('sitedescription', 'Room Booking System', 'Site Meta Description', 'string', '1', 'General');
 INSERT INTO `settings` VALUES ('siteEmailAddress', 'bookings@domain.com', 'Main Site email address - used in  booking notifications', 'string', '1', 'Email');
 INSERT INTO `settings` VALUES ('sitelogo', '/', 'Path or Full URL to your Site Logo, 20px x 20px recommended', 'string', '1', 'General');
-INSERT INTO `settings` VALUES ('sitetitle', 'Room Booking System', 'The Main Site Title', 'string', '1', 'General');
+INSERT INTO `settings` VALUES ('sitetitle', 'CPEN 422 Group 23 UI Testing', 'The Main Site Title', 'string', '1', 'General');
 INSERT INTO `settings` VALUES ('version', '1.2', 'Version Number', 'string', '1', 'General');
 
 -- ----------------------------
