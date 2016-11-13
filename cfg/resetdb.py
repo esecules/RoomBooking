@@ -3,7 +3,7 @@ import os
 from flask import Flask, request
 app = Flask(__name__)
 
-@app.route('/resetdb', methods=['POST'])
+@app.route('/resetdb', methods=['GET'])
 def resetDB():
     pw = request.args.get('reset-password')
     if pw == '45-glSJG;f22gHSAEP':
