@@ -68,9 +68,13 @@ module.exports = function(grunt) {
         dest: 'javascripts/rbs.js'
       }
     },
-
-
-
+    app:{
+      scripts: [
+        // Code Coverage
+        'javascripts/blanket.min.js',
+        'javascripts/usage-blanket.js'
+      ]
+    },
     jshint: {
       options: {
         curly: true,
