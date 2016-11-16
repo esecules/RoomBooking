@@ -3,7 +3,8 @@
 <cfif application.wheels.environment EQ "production">
   #javascriptIncludeTag("rbs.min")#
 <cfelse>
-  #javascriptIncludeTag("rbs")#
+  <script type="text/javascript" src="/javascripts/rbs.js" data-cover></script>
+  <script data-cover-flags="debug" data-cover-adapter="/javascripts/usage-blanket.js" src="/javascripts/blanket.min.js"></script>
 </cfif>
 
 <!--- Dynamic Javascript Set in Page --->
